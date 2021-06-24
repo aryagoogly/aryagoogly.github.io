@@ -19,6 +19,6 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("headline").innerHTML = "Happy Birthday Matti";
+        document.getElementById("wishes").innerHTML = "Happy Birthday Matti";
     }
 }, 1000);
