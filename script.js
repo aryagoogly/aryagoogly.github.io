@@ -20,5 +20,7 @@ var x = setInterval(function() {
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("wishes").innerHTML = "Happy Birthday Matti";
+        document.getElementById("countdown").style.display= "none";
+        document.getElementById("content").style.display= "block"
     }
 }, 1000);
